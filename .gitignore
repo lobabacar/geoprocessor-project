@@ -1,0 +1,30 @@
+# Environnements virtuels
+.venv/
+.venv-test/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Distributions
+build/
+dist/
+
+# Logs
+logs/
+*.log
+
+# Données de travail
+data/*.gpkg
+data/*.shp
+data/*.dbf
+data/*.shx
+data/*.prj
+
+# Configuration locale
+.env
+.coverage
+htmlcov/
